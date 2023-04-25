@@ -14,6 +14,17 @@ Here the Documentation [Link](https://docs.djangoproject.com/en/4.0/intro/tutori
 ```
 python3.10 -m venv env
 ```
+Activate the Environment
+
+For Linux/mac
+```
+source env/bin/activate
+```
+
+For Windows
+```
+source env\Scripts\activate
+```
 
 Install all the requirements
 
