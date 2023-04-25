@@ -64,6 +64,22 @@ jdbc:postgresql://localhost:5432/axolotl
 
 ![image](https://user-images.githubusercontent.com/96291963/234267158-3898de90-6530-4f75-8ce2-a9fd847e8b23.png)
 
+# .env
+
+Create a `.env` file in the root directory and add the following details
+
+```
+SECRET_KEY=<YOUR_SECRET_KEY>
+
+# Database Connection
+DATABASES_ENGINE=django.db.backends.postgresql
+DATABASES_NAME=<YOUR_DATABASE_NAME>
+DATABASES_USER=<YOUR_DATABASES_USER>
+DATABASES_PASSWORD=<YOUR_DATABASES_PASSWORD>
+DATABASES_HOST=<YOUR_DATABASES_HOST>
+DATABASES_TEST=<YOUR_DATABASES_TEST>
+```
+
 ## Django CMD
 
 Create Project
@@ -76,20 +92,6 @@ Run Project
 
 ```
 python manage.py runserver
-```
-
-# .env
-
-```
-SECRET_KEY=<YOUR_SECRET_KEY>
-
-# Database Connection
-DATABASES_ENGINE=django.db.backends.postgresql
-DATABASES_NAME=<YOUR_DATABASE_NAME>
-DATABASES_USER=<YOUR_DATABASES_USER>
-DATABASES_PASSWORD=<YOUR_DATABASES_PASSWORD>
-DATABASES_HOST=<YOUR_DATABASES_HOST>
-DATABASES_TEST=<YOUR_DATABASES_TEST>
 ```
 
 # Debugger for VS-code
