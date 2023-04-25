@@ -34,9 +34,11 @@ Create Database
 CREATE DATABASE <DB_NAME>;
 ```
 
-Example `username` and `password` but its `Not Recommended` for the `Production`
-Username: `postgres`
-Password: `postgres`
+Example `username` and `password` but its `Not Recommended` for the `Production`.
+
+**Username: `postgres`**
+
+**Password: `postgres`**
 
 URI:
 ```
