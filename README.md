@@ -44,3 +44,4 @@ URI:
 ```
 jdbc:postgresql://localhost:5432/axolotl
 ```
+image.png
