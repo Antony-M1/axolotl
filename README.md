@@ -157,6 +157,11 @@ Once you’re in the shell, explore the `database API` using shell.
 python manage.py createsuperuser
 ```
 
+**Running tests**
+```
+python manage.py test <APP_NAME>
+```
+
 # Debugger for VS-code
 Create a file in root directory of the project `.vscode/launch.json`
 ```
