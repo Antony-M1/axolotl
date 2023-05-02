@@ -190,3 +190,8 @@ Create a file in root directory of the project `.vscode/launch.json`
     ]
 }
 ```
+
+# Django Debug Toolbar
+[Documentation](https://docs.djangoproject.com/en/4.2/intro/tutorial08/#installing-django-debug-toolbar)
+
+Django Debug Toolbar is a useful tool for debugging Django web applications. It’s a third-party package maintained by the `Jazzband` organization. The toolbar helps you understand how your application functions and to identify problems. It does so by providing panels that provide debug information about the current request and response.
