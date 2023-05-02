@@ -31,6 +31,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = eval(os.environ.get('ALLOWED_HOSTS'))
 
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
 
 # Application definition
 
@@ -44,9 +47,14 @@ INSTALLED_APPS = [
 
     # Custom apps
     'polls.apps.PollsConfig',
+    "debug_toolbar",
 ]
 
 MIDDLEWARE = [
+    # Custom Middlewares
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
+
+    # Default middleware
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -61,7 +69,7 @@ ROOT_URLCONF = 'axolotl.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "templates"],
+        'DIRS': [BASE_DIR / "templates"], # check all the installed apps with this name `templates`
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
