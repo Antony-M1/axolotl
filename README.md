@@ -162,6 +162,11 @@ python manage.py createsuperuser
 python manage.py test <APP_NAME>
 ```
 
+**Find the source file**
+```
+python -c "import django; print(django.__path__)"
+```
+
 # Debugger for VS-code
 Create a file in root directory of the project `.vscode/launch.json`
 ```
