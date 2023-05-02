@@ -22,5 +22,5 @@ admin.site.register(Choice)
 
 
 # Site Customization
-admin.AdminSite.site_header = "Polls Administration"
-admin.AdminSite.site_title = "Polls site"
+# admin.AdminSite.site_header = "Polls Administration"
+# admin.AdminSite.site_title = "Polls site"
