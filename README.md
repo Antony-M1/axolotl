@@ -3,6 +3,8 @@
 This is Basic `Django` Project developed from the django official documentation
 
 Here the Documentation [Link](https://docs.djangoproject.com/en/4.0/intro/tutorial01/)
+![image](https://user-images.githubusercontent.com/96291963/235639363-87361b30-a868-45f4-95be-479a0f194dba.png)
+
 
 ## Prerequisites
 
@@ -192,6 +194,8 @@ Create a file in root directory of the project `.vscode/launch.json`
 ```
 
 # Django Debug Toolbar
+![image](https://user-images.githubusercontent.com/96291963/235638984-88afc2eb-8080-4890-9a7e-ccf51e35f844.png)
+
 [Documentation](https://docs.djangoproject.com/en/4.2/intro/tutorial08/#installing-django-debug-toolbar)
 
 Django Debug Toolbar is a useful tool for debugging Django web applications. It’s a third-party package maintained by the `Jazzband` organization. The toolbar helps you understand how your application functions and to identify problems. It does so by providing panels that provide debug information about the current request and response.
